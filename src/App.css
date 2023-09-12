@@ -1,0 +1,734 @@
+ body{
+  font-family: 'Nunito', sans-serif;
+  background-color: rgb(255, 255, 255);
+
+ }
+ .MenuBar-Allignment{
+display: flex;
+flex-direction: row;
+gap: 20px;
+flex-wrap: wrap-reverse;
+
+}
+
+.group-links{
+  text-decoration: none;
+  color: rgb(126, 123, 123);
+}
+.group-links :hover{
+  color: rgb(60, 17, 106);
+  
+
+}
+.App{
+  display: grid;
+}
+.items{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(247, 255, 252);
+    /* margin: 20px 40px 130px 20px; */
+    margin: 60px;
+    margin-bottom: 120px;
+
+  }
+  
+
+.scroll-order-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 45px;
+    top: 30px;
+    background-color: rgb(252, 252, 252);         
+      
+}
+
+.placeorder-input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.items :hover{
+  transition-duration: 3s;
+  animation-name: itmimg;
+  animation-duration: 4s;
+}
+@keyframes itmimg  {
+  0%{
+   
+    opacity: 0.5;
+     
+  }
+  
+ 
+}
+.items img{
+    position: relative;
+    width: 200px;
+    height: 200px; 
+    
+}
+
+
+.form-division{
+  margin-top: 100px;
+  
+}
+.login-details-form{
+  display: grid;
+  margin-top: 2%;
+  width: auto;
+  margin: 0 24% 0 23%; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  
+}
+.login-details-form img{
+  bottom: 24%;
+  right: 25%;
+  position: absolute;
+  width: 18%;
+  height: 18%;
+}
+.Sign-details-form img{
+  bottom: 10%;
+  right: 25%;
+  position: absolute;
+  width: 18%;
+  height: 18%;
+}
+.Sign-details-form{
+  display: grid;
+  margin-top: 2%;
+  width: auto;
+  margin: 0 24% 0 23%; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 85%;
+}
+.Login-User .details{
+  height: 30px;
+  width: 50%;
+  background: transparent;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+.Login-User{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 100px;
+}
+.Login-User p{
+margin-left: 10px;
+}
+.Sign-User .details{
+ padding: auto;
+  margin-bottom: 5%;
+  height: 30px;
+  width: 50%;
+  background: transparent;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+
+.submitbutton{
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  border-radius: 50px;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(156, 0, 156);
+  color:white;
+}
+
+.signin-details-form{
+  height: 500px;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(243, 244, 243);
+  margin-left: 400px;
+}
+.selectbutton{
+  height: 30px;
+  width: 80px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 5%;
+  font-family: 'Nunito', sans-serif;
+  size: 20px;
+  color: blue;
+  background-color: rgb(255, 255, 255);
+}
+.selectbutton :hover{
+background-color: rgb(88, 88, 255);
+
+}
+.Sign-User{
+  margin-top:0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 100px;
+} 
+ .myorder-div{
+  display: grid;
+  place-items: center;
+  background-color: rgb(255, 255, 255);
+ 
+} .OrderBody{
+  display: flex;
+  flex-direction: row;
+  gap: 300px;
+  padding: 10px 10px 0 10px;
+  border-radius: 20px;
+  background-color: rgb(142, 142, 142);
+}
+.singledataitems{
+  display: flex;
+  flex-direction: row;
+  gap: 300px;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  justify-content: space-between;
+}
+.eachorderdiv {
+  background-color: rgb(229, 229, 229);
+  border-radius: 10px;
+  /* border: 5px solid white; */
+
+  margin: 20px 0 20px 0;
+
+} 
+/* ----------------------------------------------------------------------------------------------------------------------------------- */
+
+.myorder-divadmin{
+  display: grid;
+  place-items: center;
+  background-color: rgb(255, 255, 255);
+ 
+} .OrderBodyadmin{
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  padding: 10px 10px 0 10px;
+  border-radius: 20px;
+  background-color: rgb(142, 142, 142);
+}
+.singledataitemsadmin{
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  justify-content: space-between;
+}
+.eachorderdivadmin {
+  background-color: rgb(229, 229, 229);
+  border-radius: 10px;
+  /* border: 5px solid white; */
+
+  margin: 20px 0 20px 0;
+
+}
+
+
+.orderbodydetails .singledataitems :hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.orderbuttonadmin{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  
+}
+.orderbutton :hover{
+  box-shadow: none;
+}
+.orderbuttonadmin button {
+  margin-top: 10px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+}
+.orderbutton button {
+  background: transparent;
+  border: none;
+  margin-top: 10px;
+  font-size: 20px;
+}
+   
+   
+
+td button{
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: aquamarine;
+
+}
+
+.Auth-division{
+  text-align: center;
+  justify-content: center;
+}
+.items p,h5{
+  text-align: center;
+}
+.items span{
+  margin-left: 50px;
+  cursor: pointer;
+}
+.items :hover{
+  transform: scale(1.2s);
+}
+.display-adminorder-items{
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width:auto;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  overflow-y: scroll;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.admingifts .order-details-form{
+  background-color: blueviolet;
+}
+.display-adminorder-items h3{
+  background-color: rgb(200, 49, 255);
+  margin: 0 43% 0 43%;
+  border-radius: 20px;
+  padding: 8px;
+  color: rgb(241, 241, 241);
+}
+
+.nav-bar-container h3{
+  background-color: rgb(106, 43, 255);
+  margin: 0 43% 0 43%;
+  border-radius: 20px;
+  padding: 8px;
+  color: rgb(241, 241, 241);
+}
+
+.editgifts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30%;
+  gap: 20px;
+  width: 500px;
+  align-items: center;
+
+} 
+.App img{
+z-index: 50;}
+
+
+
+
+.Navbar-login-body{
+  height: 500px;
+  width: 300px;
+}
+.Navbar-login{
+  display: flex;
+  
+}
+
+.Navbar-login-body{
+  font-size: 2rem;
+}
+header{
+  color: rgb(119, 67, 67);
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  
+}
+header p{
+  font-size: 3rem;
+}
+.header-items{
+  display: flex;
+  justify-content: space-around;
+  
+  gap: 20px;
+}
+.header-items p{
+  font-size: 30px;
+}
+.home-content{
+  display: grid;
+  place-items: center; 
+ text-align: center;
+ padding: 150px;
+ color: rgb(180, 126, 126);
+}
+.home-content h3{
+  animation-name: contentheading;
+  animation-duration: 3s;
+ font-size: 10px;
+ animation-fill-mode: forwards;
+
+}
+@keyframes contentheading {
+  100%{
+    font-size: 2rem;
+  }
+}
+.home-content h1{
+  font-size: 40px;
+  animation-name: contentpara;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+ }
+ @keyframes contentpara {
+  100%{
+    font-size: 4rem;
+  }
+}
+
+ .home-content button{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border: 1px solid grey;
+ 
+ }
+
+.main-text{
+  display: flex;
+  align-items:flex-end;
+}
+.main-text P{
+font-size: 2rem;
+}
+.total-header{
+  display: flex;
+  align-content: space-between;
+}
+.Navbar-login button,.Navbar-login-body button{
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+}
+.Navbar-login-body{
+
+ position: absolute;
+ display:flex ;
+ left: 10%;
+ text-align: center;
+ justify-content: center;
+ font-size:10px;
+ height: 2%;
+ border-radius: 10px;
+ width: 8%;
+
+}
+
+
+.display-order-items{
+  background-color: white; 
+}
+.nav-items{
+  margin-top: 20%;
+  font-family: 'Nunito', sans-serif;
+  animation-name: navitems;
+  animation-duration: 2s;
+  
+}
+.nav-items h2{
+  font-size: 20px;
+}
+@keyframes navitems {
+
+  100%{
+    
+    transform: scale(1.1);
+  }
+  
+}
+.nav-items :hover{
+  color: brown;
+}
+button{
+  font-family: 'Nunito', sans-serif;
+
+}
+.search-bar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.search-bar h2{
+  margin-top: 10px;
+  font-size: 25px;;
+}
+.search-icon{
+  display: flex;
+  flex-direction: row;
+  align-content:space-around ;
+  align-items: center;
+  animation-name: searchicon;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+@keyframes searchicon {
+ 
+  100%{
+    transform: scale(1.5);
+  }
+}
+.search-icon input{
+  /* visibility: hidden; */
+  border: 1px solid white;
+  height: 1%;
+  width: 66%;
+}
+
+.scroll-order-items .singleitems{
+  background-color: rgb(255, 255, 255);
+  margin:3% 0 2% 1%;
+ }
+
+.order-details-form {
+ position: absolute;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+ left: 10%;
+ right: 10%;
+ justify-content: center;
+ border-radius: 20px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+
+.allforminputs {
+  margin: 5% 15px 5% 5px;
+  width: 20%;
+  border:none;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid blue; 
+}
+.placeorder-details{
+  display: flex;
+  flex-wrap: wrap;
+}
+.singleitemsimg{
+  margin-left: 10px;
+  
+}
+.singleitemsimg img{
+
+  height: 110%;
+  width: 110%;
+}
+.singleitemsdetails {
+  font-family: 'Cinzel', serif;
+  width: 50%;
+  
+  margin-left: 10%;
+  font-size: 1.5rem;
+  
+}
+.singleitemsdetails p{
+font-size: 2rem;
+font-family: 'Cormorant', serif;}
+.singleitemsdetails li{
+  font-size: 10px;
+
+}.singleitemsdetails button{
+border: none;
+width: 20%;
+height: 10%;
+background-color: rgb(35, 90, 241);
+color: white;
+}
+
+.overlay-styles{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.7);
+  display: flex;
+  
+}items
+.submitdetailsbutton  {
+  margin-bottom:5%;
+  width: 14%;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  color: blue;
+  background-color: white;
+}
+.multiselect{
+  margin-bottom: 5%;
+}
+.formthemetext{
+  align-items: flex-start;
+  margin-right: 10%;
+  size: 2rem;
+}
+
+.nav-bar-container h3{
+  text-align: center;
+}
+.admingifts .order-details-form{
+  position: absolute;
+  top: 20%;
+}
+.addgiftbutton{
+  width: 10%;
+  height: 30px;
+}
+
+.addingdivision{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+  top: 20%;
+  width: auto;
+  left: 25%;
+  right: 25%;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* .addingdivision .submitdetailsbutton{
+  margin-top: 10%;
+} */
+.overlay-styless{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(87, 87, 87);
+  opacity: ;
+}
+
+.adddbuttondiv .submitdetailsbutton{
+  margin-left: 28%;
+  margin-right: 20%;
+}
+.admingifts .addingdivision button{
+  margin-left: 35%;
+  margin-right: 20%;
+}
+
+#updateGiftButton{
+  margin-top: 0;
+}
+#addThemeButton{
+  margin-left: 30%;
+}
+#editThemeButton{
+  margin-left: 30%;
+
+}
+.admingiftsdetails{
+  background-color: aqua;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.admingiftsdetails .addgifts{
+  display: flex;
+ margin-left: 10%;
+ margin-right: 10%;
+ z-index: 2;
+
+}
+.addgifts button{
+  margin: 0 20% 0 20%;
+}
+.admingiftbutton{
+  margin-bottom:51%;
+  width: 14%;
+  height: 35px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(69, 41, 255);
+  margin-bottom: 40%;
+  border: none;
+  margin-left: 30%;
+  
+}
+.adminthemes .addingdivision{
+  background-color: rgb(254, 239, 248);
+}.adminthemes .allforminputs {
+  border-color:rgb(111, 0, 70) ;
+}
+.placeorder-details .order-details-form input{
+  border-color: white;
+}
+.singleitems{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+@media screen and (max-width:600px) {
+  .login-details-form{
+    display: grid;
+    margin-top: 2%;
+    width: auto;
+    margin: 10% 20% 10% 20%; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(255, 6, 6, 0.2), 0 6px 20px 0 rgba(255, 92, 92, 0.19);
+  
+    
+  }
+  .login-details-form img{
+    bottom: 24%;
+    right: 25%;
+    position: absolute;
+    width: 18%;
+    height: 18%;
+  }
+  .Login-User .details{
+    height: 30px;
+    width: 50%;
+    background: transparent;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+  }
+  .Login-User{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 50px;
+  }
+  .Login-User p{
+  margin-left: 10px;
+  }
+}
+.setvisible1{
+  visibility: hidden;
+}
